@@ -1,0 +1,25 @@
+.album-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.album-container p {
+    margin: 5px 0;
+}
+
+.album-container label,
+.album-container input[type="checkbox"],
+.album-container button {
+    margin: 5px 0;
+}
+
+.album-container hr {
+    width: 100%;
+    margin: 10px 0;
+}
