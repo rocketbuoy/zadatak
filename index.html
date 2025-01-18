@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recenziranje albuma</title>
+</head>
+<body>
+    <h1 class="naslov">Recenzije preslušanih albuma</h1>
+
+    <div id="obrazac">
+        <label for="naziv">Naziv albuma:</label>
+        <input id="naziv" type="text">  <br> <br>
+        <label for="ocjena">Ocjena albuma:</label>
+        <input id="ocjena" type="number" min="1" max="10"> <br> <br>
+        <button id="dodajGmb">Dodaj na popis</button>
+    </div>
+
+<hr> <h3 class="naslov2">Popis albuma</h3>
+
+    <div id="popis1">
+        <hr>
+        <p id="album">Showbiz</p> 
+        <p id="ocjenaAlbuma">5</p>
+        <p id="datum">Kreirano: </p>
+        <label for="favorit">Favorit</label>
+        <input id="favorit" type="checkbox"> <br><br>
+        <button class="ukloni" id="ukloni">Ukloni s popisa</button>
+        
+    </div>
+<script src="albumi.js"></script>
+</body>
+</html>
